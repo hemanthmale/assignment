@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description">
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{'FinEdge - Transforming Cross-Border Payments'}</title>
+		<style>
+			body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			}
+		
+			header {
+			background-color: #15202B;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			}
+		
+			nav {
+			background-color: #1F2937;
+			color: white;
+			padding: 10px;
+			}
+		
+			nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			}
+		
+			nav ul li {
+			display: inline;
+			margin-right: 20px;
+			}
+		
+			nav ul li a {
+			color: white;
+			text-decoration: none;
+			}
+		
+			nav ul li a:hover {
+			text-decoration: underline;
+			}
+		
+			section {
+			padding: 40px;
+			text-align: center;
+			}
+		
+			.landing-section {
+			position: relative;
+			height: 600px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 50px;
+			color:black;
+			text-align: center;
+			}
+		
+			.landing-section h1 {
+			font-size: 48px;
+			margin-bottom: 20px;
+			text-align: center;
+			}
+		
+			.landing-section p {
+			font-size: 24px;
+			margin-bottom: 40px;
+			text-align: center;
+			}
+		
+			.landing-section img {
+			width: 800px;
+			height: auto;
+			}
+		
+			.landing-section .caption {
+			font-size: 18px;
+			margin-bottom: 10px;
+			text-align: center;
+			}
+		
+		
+			.services {
+			display: flex;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			}
+		
+			.service {
+			width: 30%;
+			margin: 20px;
+			padding: 20px;
+			background-color: #E5E7EB;
+			border-radius: 5px;
+			text-align: center;
+			}
+		
+			.service img {
+			max-width: 150px;
+			margin-bottom: 10px;
+			}
+		
+			input[type="text"],
+			input[type="email"],
+			textarea {
+			width: 100%;
+			padding: 10px;
+			font-size: 16px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			margin-bottom: 10px;
+		}
+		
+		#contactform{
+			padding: 20px;
+		}
+		
+		textarea {
+			height: 150px;
+		}
+		
+			footer {
+			background-color: #1F2937;
+			color: white;
+			padding: 20px;
+			text-align: center;
+			}
+		</style>
+
+	</head>
+	<header>
+		<h1>Welcome to FinEdge</h1>
+		<p>Transforming cross-border payments</p>
+	</header>
+	<body>
+		<nav>
+			<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<section id="home" class="landing-section">
+			<div>
+			<h2>Seamlessly Connect the World of Payments</h2>
+			<p>We believe in a world where geographic boundaries should not limit seamless transactions.</p>
+			<img src="https://upplabs.com/wp-content/uploads/2021/08/How-do-cross-border-payments-drive-a-new-paradigm_.jpeg" alt="landing-section">
+			</div>
+		</section>
+		
+		<section id="about">
+			<h2>About Us</h2>
+			<p>FinEdge is a forward-thinking fintech startup dedicated to revolutionizing cross-border payments. We believe in a world where geographic boundaries should never hinder individuals and businesses 
+			from making seamless transactions. With our innovative technology and financial expertise, we are committed to providing secure, efficient, and cost-effective solutions that empower our clients to 
+			transact globally with ease. Whether you're an individual sending money to loved ones abroad or a business expanding internationally, FinEdge simplifies the complexities of cross-border payments, 
+			ensuring fast, reliable, and transparent transactions. Experience a new era of financial freedom with FinEdge..</p>
+		</section>
+		
+		<section id="services">
+			<h2>Services</h2>
+			<div class="services">
+			<div class="service">
+				<img src="https://cdn3.vectorstock.com/i/1000x1000/83/97/person-transfer-money-with-smartphone-payment-vector-35038397.jpg" alt="Individual Transfer">
+				<h3>Individual Money Transfers</h3>
+				<p>Our individual money transfer service allows you to seamlessly send and receive money globally with ease. Whether you need to support your
+				loved ones or make payments internationally, our secure and efficient platform ensures quick and reliable transactions. Say goodbye to complex and 
+				time-consuming processes with our service.</p>
+				</div>
+			<div class="service">
+				<img src="https://www.lyra.com/in/wp-content/uploads/sites/8/2020/02/Best-mobile-payment-apps-to-receive-payments-for-small-business.jpg" alt="Business Payments">
+				<h3>Business Payments</h3>
+				<p>Streamline your international business payments with our dedicated business payment service. We understand the unique challenges faced by businesses operating globally, 
+				and our platform is designed to simplify and optimize your payment processes. Say goodbye to manual paperwork and lengthy procedures.</p>
+			</div>
+			<div class="service">
+				<img src="https://www.pngitem.com/pimgs/m/33-336578_monitoring-and-tracking-icon-png-download-real-time.png" alt="Real-Time Tracking">
+				<h3>Real-Time Tracking</h3>
+				<p>Track your payments in real-time with our state-of-the-art tracking service. We provide you with visibility and peace of mind by offering instant updates on the 
+				status of your transactions. No more guessing or waiting anxiously – our platform allows you to monitor the progress of your payments,</p>
+			</div>
+			</div>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form id="contactForm">
+			<input id="nameInput" type="text" placeholder="Your Name" required><br>
+			<input id="emailInput" type="email" placeholder="Your Email" required><br>
+			<textarea id="messageInput" placeholder="Your Message" required></textarea><br>
+			<button type="submit">Send Message</button>
+			</form>
+		</section>
+		
+		<footer>
+			<p>&copy; 2023 FinEdge. All rights reserved.</p>
+		</footer>
+
+		<script>
+			const contactForm = document.getElementById('contactForm');
+			contactForm.addEventListener('submit', handleFormSubmission);
+
+			function handleFormSubmission(event) {
+			event.preventDefault();
+			const nameInput = document.getElementById('nameInput');
+			const emailInput = document.getElementById('emailInput');
+			const messageInput = document.getElementById('messageInput');
+			if (nameInput.value === '' || emailInput.value === '' || messageInput.value === '') {
+				alert('Please fill in all fields.');
+				return;
+			}
+			const formData = {
+				name: nameInput.value,
+				email: emailInput.value,
+				message: messageInput.value
+			};
+			console.log(formData);
+			nameInput.value = '';
+			emailInput.value = '';
+			messageInput.value = '';
+			alert('Your Message sent successfully!');
+			}
+		</script>
+	</body>
+</html>
+
